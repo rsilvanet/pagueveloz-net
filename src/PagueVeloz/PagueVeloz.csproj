@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Authors>Robson da Silva</Authors>
-    <TargetFramework>netstandard1.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Description>Biblioteca de integração com os serviços da API PagueVeloz</Description>
     <AssemblyTitle>PagueVeloz</AssemblyTitle>
     <AssemblyName>PagueVeloz</AssemblyName>
