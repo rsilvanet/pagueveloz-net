@@ -11,7 +11,7 @@ namespace PagueVeloz.Util
     /// </summary>
     public class PagueVelozClient
     {
-        private const string sandboxBaseUrl = "https://sandbox.pagueveloz.com.br/";
+        private const string sandboxBaseUrl = "https://sandbox2.pagueveloz.com.br/";
         private const string producaoBaseUrl = "https://www.pagueveloz.com.br/";
 
         private PagueVelozHttp _http;
