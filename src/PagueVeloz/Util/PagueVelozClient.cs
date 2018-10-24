@@ -41,6 +41,7 @@ namespace PagueVeloz.Util
 
             Boletos = new BoletoAPI(this);
             PagamentoDeContas = new PagamentoContaAPI(this);
+            Saques = new SaqueAPI(this);
         }
 
         /// <summary>
@@ -143,6 +144,11 @@ namespace PagueVeloz.Util
         /// Referência para a API de pagamento de contas.
         /// </summary>
         public PagamentoContaAPI PagamentoDeContas { get; }
+
+        /// <summary>
+        /// Referência para a API de saques.
+        /// </summary>
+        public SaqueAPI Saques { get; }
 
         #endregion
     }
