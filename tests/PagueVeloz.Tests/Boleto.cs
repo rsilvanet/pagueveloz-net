@@ -45,7 +45,6 @@ namespace PagueVeloz.Tests
             Assert.Equal("Joãozinho", boleto.Sacado);
             Assert.Equal("460.844.654-12", boleto.Documento);
             Assert.Equal(100m, boleto.Valor);
-            Assert.Equal(DateTime.Today.AddDays(10), boleto.Vencimento);
         }
 
         [Fact]
